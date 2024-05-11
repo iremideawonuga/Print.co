@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+.logo img{
+    width:50px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.logo p{
+    font-weight: 600;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    z-index: 100;
+}
+
+a{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+
+main{
+    background: cadetblue;
+    color: #fff;
+}
+
+.section{
+    display: flex;
+    justify-content:space space-between ;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto;
+    font-size: 20px;
+}
+
+.section img{
+    height: 250px;
+    width:60%;
+    border-radius: 20px;
+}
+
+.section h1{
+    margin: 0;
+}
+
